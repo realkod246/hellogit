@@ -1,5 +1,5 @@
-#ifndef PUPILCLASS_H
-#define PUPILCLASS_H
+#ifndef PUPIL_H
+#define PUPIL_H
 
 	class pupil
 	{
@@ -8,7 +8,7 @@
 				string init = " ";
 				
 			public:
-				pupil (int a , string p);
+				pupil (int a, string p);
 				int getage();
 				void setage(int);
 				string getinit();

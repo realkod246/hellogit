@@ -4,9 +4,19 @@
 
 using namespace std;
 
+int linearSearch(auto inputs, auto search_key)//prototype
+{
+  for(auto i = 0u; i < inputs.size(); i++)
+   {
+     if (inputs[i].getage() == search_key)//key found
+      return i;
+  }
+   return -1;//not found
+}
+
 int main()
 {
-	vector <int> mypupil;
+	vector <pupil> mypupil;
 	
 	mypupil.push_back ({4, "ST"});
 	mypupil.push_back ({6, "DM"});

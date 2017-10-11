@@ -1,5 +1,7 @@
 #include 'pupil.h'
 
+using namespace std;
+
 string pupil::getinit()
 {
 	return init;
